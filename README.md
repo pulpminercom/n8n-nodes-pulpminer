@@ -1,6 +1,6 @@
-# n8n-nodes-pulpminer
-
 ![PulpMiner + n8n Cover](https://res.cloudinary.com/dkn197fqs/image/upload/v1760179249/PulpMiner-n8n_logo_jlonhm.png)
+
+# n8n-nodes-pulpminer
 
 This is an n8n community node. It lets you use PulpMiner in your n8n workflows.
 
