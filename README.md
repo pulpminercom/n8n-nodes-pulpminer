@@ -1,5 +1,7 @@
 # n8n-nodes-pulpminer
 
+![PulpMiner + n8n Cover](https://res.cloudinary.com/dkn197fqs/image/upload/v1760179249/PulpMiner-n8n_logo_jlonhm.png)
+
 This is an n8n community node. It lets you use PulpMiner in your n8n workflows.
 
 PulpMiner is a web scraping and data extraction platform that allows you to create custom APIs for extracting structured data from websites. This node enables you to interact with your PulpMiner-created APIs directly within n8n workflows.
