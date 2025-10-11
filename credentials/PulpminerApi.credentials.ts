@@ -1,4 +1,4 @@
-import { IAuthenticateGeneric, Icon, ICredentialType, INodeProperties } from 'n8n-workflow';
+import { IAuthenticateGeneric, Icon, ICredentialTestRequest, ICredentialType, INodeProperties } from 'n8n-workflow';
 
 export class PulpminerApi implements ICredentialType {
 	name = 'pulpminerApi';
@@ -26,5 +26,12 @@ export class PulpminerApi implements ICredentialType {
 	icon?: Icon | undefined = {
 		light: 'file:logo_60_60.svg',
 		dark: 'file:logo_60_60.svg',
+	};
+
+	test: ICredentialTestRequest = {
+		request: {
+			baseURL: 'https://api.pulpminer.com',
+			url: '/external/n8n/auth',
+		},
 	};
 }
