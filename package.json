@@ -1,6 +1,6 @@
 {
   "name": "@pulpminercom/n8n-nodes-pulpminer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "PulpMiner community node for n8n",
   "keywords": [
     "n8n-community-node-package"
