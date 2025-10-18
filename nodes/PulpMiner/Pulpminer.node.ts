@@ -69,7 +69,7 @@ export class Pulpminer implements INodeType {
 				name: 'apiId',
 				type: 'number',
 				required: true,
-				hint: 'API id is the numberic value found after creating a Pulpminer API. It is the value that comes after the /external/ path.',
+				hint: 'API id is the numeric value found after creating a Pulpminer API. It is the value that comes after the /external/ path.',
 
 				displayOptions: {
 					show: {
